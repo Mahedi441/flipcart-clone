@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <link rel="stylesheet" href="homepage.css">
+    <style>
+       .mem input[type=number] {
+
+            -moz-appearance: textfield;
+
+
+
+        }
+        .mem input::-webkit-inner-spin-button,::-webkit-outer-spin-button{
+            -webkit-appearance: none;
+            margin: 0;
+        }
+    </style>
+    <link rel="stylesheet" href="sidebar.css">
+    <script src="sidebar.js"></script>
+</head>
+
+<body>
+    <div class="body">
+         <div class="side_bar" style="position: absolute;">
+        <div class="side_logo">
+            <img src="Untitled.jpeg" alt="" class="logo_img">
+            <span class="logo_text">ChatGPT</span>
+            <span class="logo_icon"></span>
+        </div>
+        <ul class="Sidebar_ul">
+            <span class="sude_ul_text">Yesterday</span>
+            <li class="sideBar_li">Active Link Background Error</li>
+            <li class="sideBar_li">Population Categories, Render Produce</li>
+           
+        </ul>
+        <ul class="Sidebar_ul2">
+            <span class="sude_ul_text2">Prewios 7 Days</span>
+            <li class="sideBar_li2">Button Id Fix</li>
+            <li class="sideBar_li2">Insert new items.</li>
+           
+            <li class="sideBar_li2">Genrate Dummy Data</li>
+           
+            <li class="sideBar_li2">Toggle Sidebar Button.</li>
+           
+        </ul>
+    </div>
+    
+    <button id="btn" onclick="toggle();"><i class="fa-solid fa-bars" style="position: absolute;"></i></button>
+    <script src="https://kit.fontawesome.com/d94b871288.js" crossorigin="anonymous"></script>
+
+
+<script>
+      let sideBar = true;
+    function toggle(){
+     
+       if(sideBar){
+        document.querySelector(".side_bar").classList.add("none");
+        sideBar = false;
+        console.log(sideBar);
+       }else{
+        // console.log("yes");
+        document.querySelector(".side_bar").classList.remove("none");
+        sideBar = true;
+        console.log(sideBar);
+       }
+    //    sideBar = !sideBar;
+    //    console.log(sideBar);
+    }
+</script>
+        <section class="head">
+            <div class="con inhead">
+                <h1>Booking.com</h1>
+                
+                <a class="inr" href="notpage.html">INR</a>
+                <a class="img" href="notpage.html"><img class="inrimg" src="india.png" alt=""></a>
+                <a class="ques" href="notpage.html"><i class="fa-solid fa-question"></i></a>
+                <a href="notpage.html" class="ls">List your property</a>
+
+                <button class="hrbtn"><a href="index9.html">Register</a></button>
+                <button class="hsbtn"><a href="loginform.html">Sign in</a></button>
+                <nav>
+                    <span class="f"><i class="fa-solid fa-plane-departure"></i>Flights</span>
+                    <span class="f"><i class="fa-sharp fa-solid fa-bed"></i>Stays</span>
+                    <span class="f"><i class="fa-solid fa-hotel"></i>Hotels</span>
+                    <span class="f"><i class="fa-solid fa-taxi"></i>Airpot Taxi</span>
+                </nav>
+                <div class="para">
+                    <h2>Find Your Next Stay</h2>
+                    <span>Search low prices on hotels,homes and much more...</span>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="mid2">
+            <div class="immid">
+                <div class="date"><i class="fa-solid fa-calendar-days"></i>
+                    <input type="date">
+                    <input type="date">
+
+                </div>
+                <div class="mem"><i class="fa-solid fa-users"></i>
+                    <input type="number" placeholder="Adult">
+                    <input type="number" placeholder="Children">
+                    <input type="number" placeholder="Rooms">
+                </div>
+                <div class="button"><button>Search</button></div>
+            </div>
+            <input type="checkbox" name="checkbox"> I'm travelling for work <input type="checkbox" name="checkbox"> I'm
+            looking for flight
+        </div>
+        <section class="main1">
+            <div class="inmain">
+
+                <div class="ofhead">
+                    <h5>Offers</h5>
+                    <span>Promotions, deals and special offers for you</span>
+                </div>
+                <div class="ofcard">
+                    <div class="ofcard1">
+                        <div class="of1h">
+                            Fly away to your dream holiday
+                        </div>
+                        <div class="of1p">Get inspired, compare and book flights with more flexibility</div>
+                        <div class="of1img1"><img class="img1img" src="plain.png" alt=""></div>
+                        <div class="btn"><button>Search for flights</button></div>
+                    </div>
+                    <div class="ofcard2">
+                        <div class="of2h2">Take your longest holiday yet</div>
+                        <div class="of2p2">Browse properties offering long-term stays, many at reduced monthly rates.
+                        </div>
+                        <div class="of2img2"><img class="img2img" src="img2.jpeg" alt=""></div>
+                        <div class="btn2"><button>Find stay</button></div>
+                    </div>
+
+                </div>
+                <div class="tdc">
+                    <h5 class="tdh">Trending destinations</h5>
+                    <p class="tdp">Most popular choices for travellers from India</p>
+                </div>
+                <div class="gridbox">
+                    <div class="ingridbox">
+                        <div class="imggb"><img src="delhi1.jpg" alt="" class="inimggb">
+                            <div class="imggbc">
+                                <p class="imggbp">New Delhi <sup><img src="indiaflag.png" alt=""
+                                            class="indiaflag1"></sup></p>
+                            </div>
+                        </div>
+                        <!-- --------- -->
+                        <div class="imggb"><img src="bangalore1.jpg" alt="" class="inimggb">
+                            <div class="imggbc">
+                                <p class="imggbp">Bangalore <sup><img src="indiaflag.png" alt=""
+                                            class="indiaflag1"></sup></p>
+                                </di>
+                            </div>
+
+                            <!-- <div class="imggb3"></div> -->
+
+                        </div>
+
+
+                    </div>
+                    <div class="ingridbox2">
+                        <div class="igbc1">
+                            <div class="igbc11">
+                                <div class="igbci1"><img src="mumbai1.jpg" alt="" class="inigbci1">
+                                    <div class="igbci1c">
+                                        <p class="igbci1cp">Mumbai<sup> <img src="indiaflag.png" alt=""
+                                                    class="indiaflag1"></sup></p>
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- --------------2-------------------- -->
+                                <div class="igbci1"><img src="chennai1.jpg" alt="" class="inigbci1">
+                                    <div class="igbci1c">
+                                        <p class="igbci1cp">Chennai<sup> <img src="indiaflag.png" alt=""
+                                                    class="indiaflag1"></sup></p>
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- --------------3-------------------- -->
+                                <div class="igbci1"><img src="hyderabad1.jpg" alt="" class="inigbci1">
+                                    <div class="igbci1c">
+                                        <p class="igbci1cp">Hyderabad<sup> <img src="indiaflag.png" alt=""
+                                                    class="indiaflag1"></sup></p>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ei">
+                        <div class="eih">
+                            <h4>Explore India</h4>
+                            <span>These popular destinations have a lot to offer</span>
+                        </div>
+                        <!-- <div class="card"></div> -->
+                    </div>
+                    <div class="eicard">
+                        <div class="eicard1"> <img src="goa1.jpg" alt="" class="goa">
+                            <p class="eicardp">Goa</p>
+                            <span class="eicardsp">5,249 properties</span>
+                        </div>
+                        <!-- -----CARD2------------ -->
+                        <div class="eicard1"> <img src="ngoa1.jpg" alt="" class="goa">
+                            <p class="eicardp">North Goa</p>
+                            <span class="eicardsp">3,907 properties</span>
+                        </div>
+                        <!-- -----CARD2------------ -->
+                        <div class="eicard1"> <img src="sgoa1.jpg" alt="" class="goa">
+                            <p class="eicardp">South Goa</p>
+                            <span class="eicardsp">1,373 properties</span>
+                        </div>
+                        <!-- -----CARD2------------ -->
+                        <div class="eicard1"> <img src="puducherry1.jpg" alt="" class="goa">
+                            <p class="eicardp">Puducherry</p>
+                            <span class="eicardsp">689 properties</span>
+                        </div>
+                        <!-- -----CARD2------------ -->
+                        <div class="eicard1"> <img src="jaipur1.jpg" alt="" class="goa">
+                            <p class="eicardp">Jaipur</p>
+                            <span class="eicardsp">1,559 properties</span>
+                        </div>
+                    </div>
+                    <div class="btype">
+
+                        <div class="btypeh">
+                            <h5 class="btypeh5">Browse by property type</h5>
+                        </div>
+                        <div class="btypec">
+                            <div class="btypecimg1"><img src="hostel1.jpeg" alt="" class="btypecimg11">
+                                <p class="btypecp">Hotels</p>
+                            </div>
+                            <!-- --------2------- -->
+                            <div class="btypecimg1"><img src="apartment1.jpeg" alt="" class="btypecimg11">
+                                <p class="btypecp">Apartments</p>
+                            </div>
+                            <!-- --------3------- -->
+                            <div class="btypecimg1"><img src="resort1.jpeg" alt="" class="btypecimg11">
+                                <p class="btypecp">Resorts</p>
+                            </div>
+                            <!-- --------4------- -->
+                            <div class="btypecimg1"><img src="villas1.jpeg" alt="" class="btypecimg11">
+                                <p class="btypecp">Villas</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="qaetp">
+                        <div class="qaetph">
+                            <h5>Quick and easy trip planner</h5>
+                            <p class="qaetphp">Pick a vibe and explore the top destinations in India</p>
+                        </div>
+                        <div class="qbar">
+                            <ul class="qul">
+                                <li class="qli1"><i class="fa-solid fa-umbrella-beach"></i>
+                                    <h6 class="qh6">Beach</h6>
+                                </li>
+                                <li class="qli1"><i class="fa-solid fa-city"></i>
+                                    <h6 class="qh6">City</h6>
+                                </li>
+                                <li class="qli1"><i class="fa-solid fa-person-biking"></i>
+                                    <h6 class="qh6">Outdoors</h6>
+                                </li>
+                                <li class="qli1"><i class="fa-regular fa-heart"></i>
+                                    <h6 class="qh6">Romance</h6>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="qcard">
+                            <ul class="qcul">
+                                <li class="qcli"><a href="notpage.html"><img src="lonav1.jpg" alt="" class="qcimg">
+                                        <div class="qcp">Lonavala <div class="qcp2">584 km away</div>
+                                        </div>
+                                    </a></li>
+                                <li class="qcli"><a href="notpage.html"><img src="bharatpur1.jpg" alt="" class="qcimg">
+                                        <div class="qcp">Bharatpur<div class="qcp2">631 km away</div>
+                                        </div>
+                                    </a></li>
+                                <li class="qcli"><a href="notpage.html"><img src="mahabaleshvar1.jpg" alt=""
+                                            class="qcimg">
+                                        <div class="qcp">Mahabaleshwar <div class="qcp2">680 km away</div>
+                                        </div>
+                                    </a></li>
+                                <li class="qcli"><a href="notpage.html"><img src="panchgani1.jpg" alt="" class="qcimg">
+                                        <div class="qcp">Panchgani<div class="qcp2"> 684 km away</div>
+                                        </div>
+                                    </a></li>
+                                <li class="qcli"><a href="notpage.html"><img src="kasauli1.jpg" alt="" class="qcimg">
+                                        <div class="qcp">Kasauli<div class="qcp2"> 898 km away</div>
+                                        </div>
+                                    </a></li>
+                                <li class="qcli"><a href="notpage.html"><img src="ram1.jpg" alt="" class="qcimg">
+                                        <div class="qcp">Rāmnagar <div class="qcp2">905 km away</div>
+                                        </div>
+                                    </a></li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="gi">
+                        <div class="gih5">
+                            <h5>Get inspiration for your next trip</h5><a href="notpage.html"><span
+                                    class="gisp">More</span></a>
+                        </div>
+                        <div class="gic">
+                            <div class="gic1"><img src="nynyc1.webp" alt="" class="gic1img">
+                                <div class="gich6">
+                                    New Year's Eve in New York City</div>
+                                <div class="gicp">
+                                    Ring in the new year with iconic moments and unforgettable memories in New York City
+                                </div>
+                            </div>
+                            <div class="gic2"><img src="6br1.webp" alt="" class="gic2img">
+                                <h6 class="gic2h6">6 best ryokans in Japan to rejuvenate yourself</h6>
+                                <p class="gic2p">Discover unmissable ryokans to relax and unwind in style</p>
+                            </div>
+                            <div class="gic2"><img src="7bp1.webp" alt="" class="gic2img">
+                                <h6 class="gic2h6">7 best places in Asia to celebrate Christmas
+                                </h6>
+                                <p class="gic2p"> Discover the shimmering lights and festive sights of Asia’s holiday
+                                    season.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="sup">
+                        <div class="suph5">Stay at our top unique properties</div>
+                        <p class="supp">From castles and villas to boats and igloos, we've got it all</p>
+                        <div class="supcard">
+                            <div class="supc1"><img src="gv1.webp" alt="" class="supc1img">
+                                <div class="supc1h6">Gyttja Västergårds</div>
+                                <p class="supc1p1">Finland, Lillandet</p><span class="supc1sp">9.3</span>
+                                <p class="supc1p2">
+                                    Superb · 207 reviews</p>
+                            </div>
+                            <!-- ------2------- -->
+                            <div class="supc1"><img src="wsu1.webp" alt="" class="supc1img">
+                                <div class="supc1h6">Waldschenke Stendenitz Übernachten </div>
+                                <p class="supc1p1">Germany, Neuruppin</p><span class="supc1sp">8.7</span>
+                                <p class="supc1p2">
+                                    Fabulous · 313 reviews</p>
+                            </div>
+
+                            <!-- ------3------- -->
+                            <div class="supc1"><img src="hv1.webp" alt="" class="supc1img">
+                                <div class="supc1h6">Harbor View</div>
+                                <p class="supc1p1">United Kingdom, Isle Of Skye</p><span class="supc1sp">9.0</span>
+                                <p class="supc1p2">
+                                    Superb · 144 reviews</p>
+                            </div>
+
+                            <!-- ------4------- -->
+                            <div class="supc1"><img src="crlmc1.webp" alt="" class="supc1img">
+                                <div class="supc1h6">Casa Rural La Marquesa - Cuenca</div>
+                                <p class="supc1p1">Spain, Valera de Abajo</p><span class="supc1sp">9.4</span>
+                                <p class="supc1p2">
+                                    Superb · 58 reviews</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- ------2------- -->
+                    <div class="hgl">
+                        <div class="hglh5">Stay at our top unique properties</div>
+                        <p class="hglp">From castles and villas to boats and igloos, we've got it all</p>
+                        <div class="hglcard">
+                            <div class="hglc1"><img src="LL1.webp" alt="" class="hglc1img">
+                                <div class="hglc1h6">Leman Locke</div>
+                                <p class="hglc1p1">Tower Hamlets, United Kingdom</p><span class="hglc1sp">8.9</span>
+                                <p class="hglc1p2">
+                                    Fabulous · 1,296 reviews</p>
+                                <div class="hglc1fle1"><span class="hglc1sf">Starting from:</span><span
+                                        class="hglc1pri">₹ 14,118</span></div>
+                            </div>
+                            <!-- ------2------- -->
+                            <div class="hglc1"><img src="asm1.webp" alt="" class="hglc1img">
+                                <div class="hglc1h6">Aparthotel Stare Miasto</div>
+                                <p class="hglc1p1">Old Town, Poland, Kraków</p><span class="hglc1sp">8.7</span>
+                                <p class="hglc1p2">
+                                    Fabulous · 2,705 reviews</p>
+                                <div class="hglc1fle"><span class="hglc1sf">Starting from:</span><span
+                                        class="hglc1pri">₹ 9,247</span></div>
+                            </div>
+
+                            <!-- ------3------- -->
+                            <div class="hglc1"><img src="7sab1.webp" alt="" class="hglc1img">
+                                <div class="hglc1h6">7Seasons Apartments Budapest</div>
+                                <p class="hglc1p1">06. Terézváros, Hungary, Budapest</p><span class="hglc1sp">8.8</span>
+                                <p class="hglc1p2">
+                                    Fabulous · 10,224 reviews</p>
+                                <div class="hglc1fle3"><span class="hglc1sf">Starting from:</span><span
+                                        class="hglc1pri">₹ 8,768</span></div>
+                            </div>
+
+                            <!-- ------4------- -->
+                            <div class="hglc1"><img src="vd1.webp" alt="" class="hglc1img">
+                                <div class="hglc1h6">Villa Domina</div>
+                                <p class="hglc1p1">Split City Centre, Croatia, Split</p><span class="hglc1sp">9.3</span>
+                                <p class="hglc1p2">
+                                    Superb · 1,277 reviews</p>
+                                <div class="hglc1fle"><span class="hglc1sf">Starting from:</span><span
+                                        class="hglc1pri">₹ 4,030</span></div>
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                    <div class="gid">
+                        <div class="gidlogo"><img src="gidlogo1.png" alt="" class="golo"></div>
+                        <div class="gidc">
+                            <div class="gidch5">
+                                <h5>Get instant discounts</h5>
+                                <p class="gidcp5">Simply sign into your Booking.com account and look for the blue Genius
+                                    logo to save</p>
+                            </div>
+                            <div class="gidbtn1"><button><a href="loginform.html">Sign in</a></button></div>
+                            <div class="gidbtn2"><button><a href="index9.html">Register</a></button></div>
+                        </div>
+                    </div>
+                    <div class="dh">
+                        <div class="dhbg1"></div>
+                        <div class="dhbg"><img src="dh1.png" alt="" class="dhbgimg"></div>
+                        <div class="dhrou">
+                            <div class="dhrh6">
+                                <h6>Find <u> holiday homes </u><br>
+                                    for your next trip
+                                </h6>
+                            </div>
+                            <div class="dhbtn"><button>Discover homes</button></div>
+                        </div>
+                    </div>
+                    <div class="dwlh">
+                        <div class="dwlh5">
+                            <h5>Destinations we love
+
+
+                            </h5>
+                        </div>
+                        <div class="dwlhul">
+                            <ul class="dwlul">
+                                <li class="dwlli"><span class="dwllispn">Regions</span></li>
+                                <li class="dwlli"><span class="dwllispn">Cities</span></li>
+                                <li class="dwlli lin3"><span class="dwllispn">Place to interest</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="dwl">
+                        <div class="dwlul2">
+                            <ul class="dwlul2in">
+                                <li class="dwlli2"><a href="notpage.html">Texel</a><br><span class="dwlsp">410
+                                        properties</span>
+                                </li>
+
+                                <!-- 2 -->
+                                <li class="dwlli2"><a href="notpage.html">
+                                        Santorini
+                                    </a><br><span class="dwlsp"> 1,766 properties</span></li>
+                                <!-- 3 -->
+                                <li class="dwlli2"><a href="notpage.html">Phuket Province</a><br><span
+                                        class="dwlsp">5,498
+                                        properties</span></li>
+                                <!-- 4 -->
+                                <li class="dwlli2"><a href="notpage.html">Jersey</a><br><span class="dwlsp">89
+                                        properties</span>
+                                </li>
+                                <!-- 5 -->
+                                <li class="dwlli2"><a href="notpage.html">Bali</a><br><span class="dwlsp">12,867
+                                        properties</span>
+                                </li>
+                                <!-- 6 -->
+                                <li class="dwlli2"><a href="notpage.html">Lake District
+                                    </a><br><span class="dwlsp">2,404 properties</span></li>
+                                <!-- 7 -->
+                                <li class="dwlli2"><a href="notpage.html">Uttar Pradesh</a><br><span class="dwlsp">4,386
+                                        properties</span></li>
+                                <!-- 8 -->
+                                <li class="dwlli2"><a href="notpage.html">Englandl</a><br><span class="dwlsp">74,034
+                                        properties</span></li>
+                                <!-- 9 -->
+                                <li class="dwlli2"><a href="notpage.html">Isle of Wight</a><br><span class="dwlsp">
+                                        934 properties</span></li>
+                                <!-- 10 -->
+                                <li class="dwlli2"><a href="notpage.html">Guernsey</a><br><span class="dwlsp">
+                                        61 properties</span></li>
+                                <!-- 11 -->
+                                <li class="dwlli2"><a href="notpage.html">Bora Bora</a><br><span class="dwlsp">
+                                        59 properties</span></li>
+                                <!-- 12 -->
+                                <li class="dwlli2"><a href="notpage.html">Ras Al Khaimah</a><br><span class="dwlsp">
+                                        113 properties</span></li>
+                                <!-- 13 -->
+                                <li class="dwlli2"><a href="notpage.html">Bihar</a><br><span class="dwlsp">
+                                        761 properties</span></li>
+                                <!-- 14 -->
+                                <li class="dwlli2"><a href="notpage.html">Hawaii</a><br><span class="dwlsp">
+                                        5,515 properties</span></li>
+                                <!-- 15 -->
+                                <li class="dwlli2"><a href="notpage.html">Ibiza</a><br><span class="dwlsp">
+                                        1,661 properties</span></li>
+                                <!-- 16 -->
+                                <li class="dwlli2"><a href="notpage.html">Tenerife</a><br><span class="dwlsp">
+                                        9,611 properties</span></li>
+                                <!-- 17 -->
+                                <li class="dwlli2"><a href="notpage.html">Cornwall</a><br><span class="dwlsp">
+                                        5,281 properties</span></li>
+                                <!-- 18 -->
+                                <li class="dwlli2"><a href="notpage.html">Mykonos</a><br><span class="dwlsp">
+
+                                        1,454 properties</span></li>
+                                <!-- 19 -->
+                                <li class="dwlli2"><a href="notpage.html">Zanzibar</a><br><span class="dwlsp">
+                                        836 properties</span></li>notpage.html
+
+
+                            </ul>
+                        </div>
+                    </div>
+                    <footer class="footer25">
+                        <div class="footer2">
+                            <div class="foot2con">
+                                <p class="f2cp1">Save time, save money!</p>
+                                <p class="f2cp2">Sign up and we'll send the best deals to you</p>
+                                <div class="f2cib"><input type="email" class="f2ci"
+                                        placeholder="Your email address"><button class="f2cb">Subscribe</button></div>
+                            </div>
+                        </div>
+                        <div class="footer5">
+                            <p class="f5cb"><button class="f5cb1">List your property</button></p> <br>
+                            <hr>
+                            <div class="footul">
+                                <ul class="f5ul">
+                                    <li class="f5li"><a href="notpage.html">Mobile version</a></li>
+                                    <li class="f5li"><a href="notpage.html">Your account</a></li>
+                                    <li class="f5li"><a href="notpage.html">Make changes to your booking online</a></li>
+                                    <li class="f5li"><a href="notpage.html">Customer Service help</a></li>
+                                    <li class="f5li"><a href="notpage.html">Become an affiliate</a></li>
+                                    <li class="f5li flin5"><a href="notpage.html">Booking.com for Business</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </footer>
+                    <div class="footerlinks">
+                        <ul class="ftlks1 ftl1">
+                            <a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Countries</li>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Regions</li>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Cities</li>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Districts</li>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Airports</li>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Hotels</li>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Places of interest</li>
+                            </a>
+                        </ul>
+                        <!-- 2 -->
+                        <ul class="ftlks1 ftl2">
+                            <a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Homes</li>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Apartments</li>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Resorts</li>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Villas</li>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">B&Bs</li>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Hotels</li>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Guest houses</li>
+                            </a>
+                        </ul>
+                        <!-- 3 -->
+                        <ul class="ftlks1 ftl3">
+                            <a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Unique places to stay</li>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">All destinations</li>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">All flight destinations</li>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">All car hire locations</li>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">All holiday destinations</li>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Discover</li>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Reviews</li>
+                            </a>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Discover monthly stays</li>
+                            </a>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Unpacked: Travel articles</li>
+                            </a>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Seasonal and holiday deals</li>
+                            </a>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Traveller Review Awards</li>
+                            </a>
+                        </ul>
+                        <!-- 4 -->
+                        <ul class="ftlks1 ftl4">
+                            <a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Car hire</li>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Flight finder</li>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Restaurant reservations</li>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Booking.com for Travel Agents</li>
+                            </a>
+                        </ul>
+                        <!-- 5 -->
+                        <ul class="ftlks1 ftl5">
+                            <a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Coronavirus (COVID-19) FAQs</li>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">About Booking.coms</li>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Customer Service help</li>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Partner help</li>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Careers</li>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Sustainability</li>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Press centre</li>
+                            </a>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Safety resource centre</li>
+                            </a>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Investor relations</li>
+                            </a>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Terms & Conditions</li>
+                            </a>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Partner dispute</li>
+                            </a>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">How we work</li>
+                            </a>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Privacy & Cookie Statement</li>
+                            </a>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">MSA Statement</li>
+                            </a>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Corporate contact</li>
+                            </a>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">Content guidelines and reporting</li>
+                            </a>
+                            </a><a href="notpage.html" class="ftlka
+                            ">
+                                <li class="ftlkli">We Price Match</li>
+                            </a>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="elbtn"><a href="notpage.html" class="elbtna">Extranet login</a></div>
+                    <div class="copyr">Copyright © 1996–2024 Booking.com™. All rights reserved.
+                    </div>
+                    <div class="lastp">
+                        <p class="lstp">Booking.com is part of Booking Holdings Inc., the world leader in online travel
+                            and related services.</p>
+                    </div>
+                    <div class="lastimgs">
+                        <ul class="lstimgul">
+                            <li class="lstlogoimg"><img src="bc1.png" alt="" class="lstimg1"></li>
+                            <li class="lstlogoimg"><img src="prilc1.png" alt="" class="lstimg1"></li>
+                            <li class="lstlogoimg"><img src="kk1.png" alt="" class="lstimg1"></li>
+                            <li class="lstlogoimg"><img src="aa1.png" alt="" class="lstimg1"></li>
+                            <li class="lstlogoimg"><img src="opt1.png" alt="" class="lstimg1"></li>
+                        </ul>
+                    </div>
+
+        </section>
+
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/d94b871288.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
